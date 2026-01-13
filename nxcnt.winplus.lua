@@ -15,15 +15,6 @@ local LP = Players.LocalPlayer
 local function showPreloader()
 	local preGui = Instance.new("ScreenGui")
 	preGui.Name = "rj3yBlackscreen"
-	,WalkSpeed = 16
-	,JumpPower = 50
-	,FlySpeed = 50
-	,LockRange = 700
-	,TextUpdateRate = 0.3
-	,LineUpdateRate = 0.05
-	,SilentCooldownSetting = 0.2
-	,SilentLegitBlend = 0.35
-	,HighlightTransparency = 0.6
 	preGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	preGui.Parent = LP:WaitForChild("PlayerGui")
 
